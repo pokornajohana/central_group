@@ -1,9 +1,47 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
   color: #6c6c6b;
+  margin: 0;
 }
 
 main {
+  border: solid 1px #dadada;
   max-width: 1110px;
 }
+
+section {
+  padding: 20px 100px 20px 100px;
+}
+
+.first_section_info {
+  background-color: #f2f2f2;
+  height: 30%;
+  padding: 60px 100px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #23264d;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.first_content p {
+  font-size: 15px;
+}
+
+.to_rent {
+  height: 35px;
+  padding: 0 18px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #3e3e3e;
+}
+
+.second_section_detail {}
