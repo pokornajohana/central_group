@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: 'Exo 2', sans-serif;
   font-weight: 300;
   color: #6c6c6b;
@@ -60,4 +61,26 @@ ul {
   list-style: url("./img/check_icon.png");
   line-height: 2.5;
   font-size: 12px;
+}
+
+.third_section_contact {
+  width: 60%;
+  border: solid 1px #dadada;
+}
+
+.third_section_contact div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.third_section_contact h3 {
+  color: #23264d;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.third_section_contact svg {
+  height: 17px;
 }
