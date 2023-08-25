@@ -32,16 +32,32 @@ h1 {
   font-size: 25px;
 }
 
-.first_content p {
-  font-size: 15px;
+.first_section_info p {
+  font-size: 12px;
 }
 
 .to_rent {
-  height: 35px;
+  height: 25px;
   padding: 0 18px;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #3e3e3e;
 }
 
-.second_section_detail {}
+.second_section_detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second_section_detail img {
+  width: 400px;
+  height: 200px;
+}
+
+ul {
+  padding: 0;
+  list-style: url("./img/check_icon.png");
+  line-height: 2.5;
+  font-size: 12px;
+}
