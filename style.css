@@ -10,17 +10,23 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: solid 1px #dadada;
   max-width: 1110px;
 }
 
 section {
   padding: 20px 100px 20px 100px;
+  width: 60%;
 }
 
 .first_section_info {
   background-color: #f2f2f2;
   height: 30%;
+  /* width: 60%; */
   padding: 60px 100px 20px 100px;
   display: flex;
   justify-content: space-between;
@@ -64,7 +70,6 @@ ul {
 }
 
 .third_section_contact {
-  width: 60%;
   border: solid 1px #dadada;
 }
 
@@ -83,4 +88,18 @@ ul {
 
 .third_section_contact svg {
   height: 17px;
+}
+
+.fourth_section_plan {
+  width: 78.5%;
+  padding: 0;
+
+}
+
+.fourth_section_plan img {
+  /* display: flex;
+  align-items: center; */
+  width: 100%;
+  margin: 0px;
+  margin: 50px 0 30px 0;
 }
